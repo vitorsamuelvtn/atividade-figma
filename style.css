@@ -1,0 +1,371 @@
+#inicio{
+    margin-left: 30px;
+}
+
+
+.texto1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 130vh;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: -50px;
+}
+
+.texto1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vh;
+    width: 140vh;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+
+.fotorosto img{
+    display: flex;
+    width: 400px;
+    height: 250px;
+    margin-left: -400px;
+    margin-top: 90px;
+
+}
+
+.menosobotao{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.botao1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 103vh;
+}
+
+.botao1 button{
+    padding: 15px 20px;
+    font-size: 15px;
+    background-color: #ff6464;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-top: -40px;
+}
+
+.botao1 button:hover{
+    background-color: #b64141;
+}
+
+/*pomvpwompwofwp*/
+
+
+#formacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+    gap: 50px;
+    background-color: #edf7fa;
+}
+
+.caixa1{
+    border: 2px solid #ffffff;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-right: 80px;
+
+}
+
+.caixa1 p{
+    text-align: center;
+}
+
+.caixa2{
+     border: 2px solid #ffffff;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-left: -50px;
+}
+
+.tituloform{
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: -57px;
+}
+
+/*poerpfijprgjferpgjrepgo*/
+
+
+/* SEÇÃO EXPERIÊNCIAS */
+
+#experiencias {
+    width: 80%;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 20px 0;
+    font-family: sans-serif;
+}
+
+.titulo-experiencias {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 0 35px 0;
+}
+
+.experiencias1,
+.experiencias2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 40px;
+}
+
+.foto-experiencia {
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.conteudo-experiencia {
+    flex: 1;
+    min-width: 0;
+}
+
+.conteudo-experiencia h2 {
+    font-size: 28px;
+    color: #21243d;
+    margin: -5px 0 22px;
+}
+
+.detalhes-experiencia {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 18px;
+    color: #888;
+}
+
+.ano {
+    background-color: #21243d;
+    color: white;
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.conteudo-experiencia p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/*dkjkjvijvbwiubwrigubrweigub*/
+
+#skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+    gap: 50px;
+    background-color: #edf7fa;
+}
+
+.caixaskill1{
+    border: 2px solid #ffffff;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-right: 80px;
+
+}
+
+.caixaskill1 p{
+    text-align: center;
+}
+
+.caixaskill2{
+     border: 2px solid #ffffff;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-left: -50px;
+}
+
+.tituloskill{
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: -57px;
+}
+
+#skills img{
+    display: flex;
+    text-align: center;
+}
+
+/*dhbbhjiburiubritubriubriubrignjgn*/
+
+#rodape{
+    padding: 30px;
+    text-align: center;
+}
+
+/* RESPONSIVIDADE PARA CELULAR */
+
+@media (max-width: 768px) {
+
+    /* INÍCIO */
+    #inicio {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .menosobotao {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .texto1 {
+        width: 100%;
+    }
+
+    .texto1 h1 {
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .texto1 p {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: block;
+    }
+
+    .fotorosto img {
+        width: 200px;
+        height: 200px;
+        margin: 0;
+        object-fit: cover;
+    }
+
+    .botao1 {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    /* FORMAÇÕES */
+    #formacoes {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 20px;
+        gap: 20px;
+    }
+
+    .tituloform {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .caixa1,
+    .caixa2 {
+        width: 100%;
+        max-width: 400px;
+        margin: 0;
+    }
+
+    /* EXPERIÊNCIAS */
+    #experiencias {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .experiencias1,
+    .experiencias2 {
+        flex-direction: column;
+    }
+
+    .foto-experiencia {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        aspect-ratio: 4 / 3;
+    }
+
+    /* SKILLS */
+    #skills {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 20px;
+        gap: 20px;
+    }
+
+    .tituloskill {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .caixaskill1,
+    .caixaskill2 {
+        width: 100%;
+        max-width: 400px;
+        margin: 0;
+    }
+
+    /* RODAPÉ */
+    #rodape {
+        padding: 20px 10px;
+    }
+
+    .rodapefotos img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* CELULARES PEQUENOS */
+
+@media (max-width: 480px) {
+
+    .texto1 h1 {
+        font-size: 26px;
+    }
+
+    .texto1 p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .caixa1,
+    .caixa2,
+    .caixaskill1,
+    .caixaskill2 {
+        padding: 15px;
+    }
+
+    .conteudo-experiencia h2 {
+        font-size: 22px;
+    }
+}
